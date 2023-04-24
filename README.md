@@ -10,7 +10,7 @@ The function returns the calculated AQI value rounded to one decimal place as an
 
 The AQI is calculated using the following formula:
 
-![alt text](https://github.com/HardjunoIndracahya/aqi-calculator/AQI-formula.png?raw=true)
+![aqi-formula](https://github.com/HardjunoIndracahya/aqi-calculator/blob/main/AQI-formula.png?raw=true)
 
 - If `pollutant` is "PM2.5":
   ```
