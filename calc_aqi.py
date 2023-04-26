@@ -15,9 +15,9 @@ def calc_aqi_us(concentration, pollutant):
 
     c = float(concentration)
 
-    for i in range(len(c_low)):
-        if c_low[i] <= c <= c_high[i]:
-            aqi = ((i_high[i] - i_low[i]) / (c_high[i] - c_low[i])) * (c - c_low[i]) + i_low[i]
+    for i, item in enumerate(c_low):
+        if item <= c <= c_high[i]:
+            aqi = ((i_high[i] - i_low[i]) / (c_high[i] - item)) * (c - item) + i_low[i]
             return round(aqi, 1)
     if c > c_high[-1]:
         aqi = ((i_high[-1] - i_low[-1]) / (c_high[-1] - c_low[-1])) * (c - c_low[-1]) + i_low[-1]
