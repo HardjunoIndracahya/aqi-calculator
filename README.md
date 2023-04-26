@@ -1,6 +1,8 @@
 # aqi-calculator
 **Air Quality Index (AQI) Calculator with Python**
 
+[![CodeFactor](https://www.codefactor.io/repository/github/hardjunoindracahya/aqi-calculator/badge)](https://www.codefactor.io/repository/github/hardjunoindracahya/aqi-calculator)
+
 This AQI (Air Quality Index) calculator is a Python function that calculates the AQI of a given concentration of either PM2.5 or PM10 pollutants based on the US EPA (Environmental Protection Agency) standard. The function takes in two parameters:
 
 - `concentration`: The concentration of the pollutant in micrograms per cubic meter (μg/m³).
